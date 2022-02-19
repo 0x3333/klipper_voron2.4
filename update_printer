@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rsync -rvz --delete --exclude update_printer --dry-run ./ pi@voron.local:/home/pi/klipper_config/
+
+echo
+echo "If everything is ok, press [ENTER]..."
+read
+
+rsync -rvz --delete --exclude update_printer ./ pi@voron.local:/home/pi/klipper_config/
