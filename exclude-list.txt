@@ -2,3 +2,5 @@
 .git
 .gitignore
 update_printer
+exclude-list.txt
+README.md
