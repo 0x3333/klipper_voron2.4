@@ -1,9 +1,3 @@
 #!/bin/bash
 
-rsync -rvz --delete --exclude-from 'exclude-list.txt' --dry-run ./ pi@voron.local:/home/pi/klipper_config/
-
-echo
-echo "If everything is ok, press [ENTER]..."
-read
-
 rsync -rvz --delete --exclude-from 'exclude-list.txt' ./ pi@voron.local:/home/pi/klipper_config/
