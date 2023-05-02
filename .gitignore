@@ -1,2 +1,5 @@
 .DS_Store
 telegram.secrets.conf
+firmware.bin
+klipper.bin
+shaper_calibrate_*.png

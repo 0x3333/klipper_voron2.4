@@ -4,3 +4,5 @@
 update_printer
 exclude-list.txt
 README.md
+firmware.bin
+klipper.bin
