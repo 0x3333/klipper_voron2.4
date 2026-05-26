@@ -1,2 +1,0 @@
-camera="raspi"
-camera_raspi_options="-fps 7"

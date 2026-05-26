@@ -6,3 +6,5 @@ exclude-list.txt
 README.md
 firmware.bin
 klipper.bin
+mainsail.cfg
+timelapse.cfg
