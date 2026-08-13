@@ -1,5 +1,6 @@
 .DS_Store
 .git
+.github
 .gitignore
 update_printer
 exclude-list.txt
@@ -8,3 +9,6 @@ firmware.bin
 klipper.bin
 mainsail.cfg
 timelapse.cfg
+AGENTS.md
+FIXES.md
+MACROS_DIAGRAM.md
